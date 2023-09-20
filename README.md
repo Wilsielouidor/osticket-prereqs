@@ -34,8 +34,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - <p>  HeidiSQL
 - <p> osTicket v1.15.8
 
-<h2>Sign into Azure</h2>
+<h1>Sign into Azure</h1>
 Sign into the <a href= "https://portal.azure.com" target="_blank">Azure portal</a>
+
 <h1> Create Virtual Machine</h1>
 1) Create Resource group-->for image use Windows 10 with 2 or 4 virtual CPUs
 <p></p>
@@ -53,9 +54,14 @@ Leave the remaining defaults--> check box under licensing and click review and c
  
 <img width="782" alt="Screen Shot 2023-09-20 at 4 38 42 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/aaa877bd-af21-40d2-a99e-fe6a2a7a15de">
 
-</p>
+<h1> Install Dependencies and osTicket</h1>
 <p>
-1) Create resource group and then a Virtual Machine with an azure account through this link https://portal.azure.com/. Make sure your Virtual machine has Windows 10 Pro for the image and can choose from either 2 or 4 vcpus with 16 gbs of memory.
+1) Use Remote Desktop to connect to Virtual Machine--> Copy and paste public IP address that was just created onto Remote desktop and use login credentials that were created under azure virtual machines
+
+<img width="1434" alt="Screen Shot 2023-09-20 at 6 48 07 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/a98a0374-8762-45da-9e9b-aac96c3f1784">  <img width="611" alt="Screen Shot 2023-09-20 at 6 50 58 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/e1ad5f0c-3a7b-4203-b25d-1a18fb370843"> <img width="611" alt="Screen Shot 2023-09-20 at 6 53 02 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/48506a06-c685-4788-857a-220e4b8020ca">
+
+
+
   
 2) After your Virtual Machine is created you will need to connect it through remote desktop by copying and pasting the public ip address of the Virtual Machine onto the remote desktop app and use the login information which you created while making the virtual machine. 
 </p>
