@@ -36,6 +36,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Sign into Azure</h2>
 Sign into the <a href= "https://portal.azure.com" target="_blank">Azure portal</a>
+<h1> Create Virtual Machine</h1>
+1) Create Resource group-->for image use Windows 10 with 2 or 4 virtual CPUs
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img width="852" alt="Screen Shot 2023-09-20 at 4 28 49 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/a6790aaf-1d64-43a6-9521-896881c4492d">
+
+2) Under Administrator account provide username and password to use for later when connecting to the Virtual Machine.
+Leave the remaining defaults and click review and create
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
