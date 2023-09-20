@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket. Disclaimer steps will be completed using a Macbook which will show differently compared to a windows desktop. <br />
 
 
 <h2>Video Demonstration</h2>
@@ -63,7 +63,7 @@ Leave the remaining defaults--> check box under licensing and click review and c
 
 
   
-2) After your Virtual Machine is created you will need to connect it through remote desktop by copying and pasting the public ip address of the Virtual Machine onto the remote desktop app and use the login information which you created while making the virtual machine. 
+2) Install/Enable IIS in with CGI and Common HTTP Features 
 </p>
 <br />
 
