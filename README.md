@@ -26,12 +26,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Internet Information Services (IIS)  
 - Install the os Ticket prerequirements access through link:
 - <p>https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
-- <p>PHP Manager
-- <p>Rewrite Module
-- <p>PHP 7.3.8
-- <p>VC Redist.x86.exe
-- <p>MySQL5.5.62
-- <p>HeidiSQL
+- <p>  PHP Manager
+- <p>  Rewrite Module
+- <p>  PHP 7.3.8
+- <p>  VC Redist.x86.exe
+- <p>  MySQL5.5.62
+- <p>  HeidiSQL
 
 <h2>Installation Steps</h2>
 
