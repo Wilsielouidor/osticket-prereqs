@@ -38,14 +38,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 Sign into the <a href= "https://portal.azure.com" target="_blank">Azure portal</a>
 <h1> Create Virtual Machine</h1>
 1) Create Resource group-->for image use Windows 10 with 2 or 4 virtual CPUs
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <img width="852" alt="Screen Shot 2023-09-20 at 4 28 49 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/a6790aaf-1d64-43a6-9521-896881c4492d">
 
-2) Under Administrator account provide username and password to use for later when connecting to the Virtual Machine.
-Leave the remaining defaults and click review and create
+2) Under Instance details: create a Virtual Machine name--> For image use Windows 10 Pro--> Size use 2 or 4vcpus, 16 Gib of memory
+<img width="789" alt="Screen Shot 2023-09-20 at 4 35 41 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/93e55d07-0bc9-46d5-ac50-a89f48fd60a1">
+ 
+3) Under Administrator account provide username and password to use for later when connecting to the Virtual Machine.
+Leave the remaining defaults--> check box under licensing and click review and create
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="782" alt="Screen Shot 2023-09-20 at 4 38 42 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/aaa877bd-af21-40d2-a99e-fe6a2a7a15de">
+
 </p>
 <p>
 1) Create resource group and then a Virtual Machine with an azure account through this link https://portal.azure.com/. Make sure your Virtual machine has Windows 10 Pro for the image and can choose from either 2 or 4 vcpus with 16 gbs of memory.
