@@ -22,7 +22,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Create a Virtual Machine using Azure
+- Virtual Machine using Azure
 - Internet Information Services (IIS)  
 - Install the os Ticket prerequirements access through link:
 - <p>https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
@@ -34,8 +34,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - <p>  HeidiSQL
 - <p> osTicket v1.15.8
 
-<h2>Installation Steps</h2>
-
+<h2>Sign into Azure</h2>
+<a></a>https://portal.azure.com/ Azure portal
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
