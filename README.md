@@ -40,7 +40,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+1) Create resource group and then a Virtual Machine with an azure account through this link https://portal.azure.com/. Make sure your Virtual machine has Windows 10 Pro for the image and can choose from either 2 or 4 vcpus with 16 gbs of memory.
+  
+2) After your Virtual Machine is created you will need to connect it through remote desktop by copying and pasting the public ip address of the Virtual Machine onto the remote desktop app and use the login information which you created while making the virtual machine. 
 </p>
 <br />
 
