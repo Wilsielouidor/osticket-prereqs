@@ -32,6 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - <p>  VC Redist.x86.exe
 - <p>  MySQL5.5.62
 - <p>  HeidiSQL
+- <p> osTicket v1.15.8
 
 <h2>Installation Steps</h2>
 
