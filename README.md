@@ -25,13 +25,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Create a Virtual Machine using Azure
 - Internet Information Services (IIS)  
 - Install the os Ticket prerequirements access through link:
--   https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
--     PHP Manager
--     Rewrite Module
--     PHP 7.3.8
--     VC Redist.x86.exe
--     MySQL5.5.62
--     HeidiSQL
+- <p>https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+- <p>PHP Manager
+- <p>Rewrite Module
+- <p>PHP 7.3.8
+- <p>VC Redist.x86.exe
+- <p>MySQL5.5.62
+- <p>HeidiSQL
 
 <h2>Installation Steps</h2>
 
