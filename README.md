@@ -35,7 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - <p> osTicket v1.15.8
 
 <h2>Sign into Azure</h2>
-<h1><a href= "https://portal.azure.com" target="_blank">Azure portal</a></h1>
+Login through <a href= "https://portal.azure.com" target="_blank">Azure portal</a>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
