@@ -63,9 +63,35 @@ Leave the remaining defaults--> check box under licensing and click review and c
 
 
   
-2) Install/Enable IIS in with CGI and Common HTTP Features 
+2) Open <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6" target="_blank">Installation Files</a> on microsoft edge web browser as needed
+ Open Install/Enable IIS in with CGI and Common HTTP Features by going to control panel--> programs--> Turn windows features on and off--> Check box of Internet Information Services--> expand world wide web services by pressing the plus sign next to it--> expand application Development Features check CGI
+<img width="416" alt="Screen Shot 2023-09-20 at 11 37 00 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/708d3403-d9a8-44a9-8216-9abbfb21622d">
+
+
+
+Collapse Application Development--> Expand Common HTTP Features and make sure all features are checked and then click OK.
+<img width="424" alt="Screen Shot 2023-09-20 at 11 43 21 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/896e2af9-1e47-4b7a-a6b7-9e87d5e59463">
+
+
+After IIS is installed, make sure it works by going to the web browser and type in 127.0.0.1 and it shows the image below.
+<img width="762" alt="Screen Shot 2023-09-20 at 11 48 10 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/e643c53a-1aac-41b5-8676-6d1b5d086007">
+
 </p>
 <br />
+From <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6" target="_blank">Installation Files</a> download PHP Manager--> download rewrite 
+
+<img width="665" alt="Screen Shot 2023-09-21 at 12 01 24 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/68b5931b-2b60-45fd-b03d-f00b6adabc0e">
+
+<img width="513" alt="Screen Shot 2023-09-21 at 12 06 16 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/fd90e8e0-1b52-457c-8d3c-a6190cf51a8d">
+
+Create Directory C:\PHP
+<img width="1153" alt="Screen Shot 2023-09-21 at 12 11 55 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/4f399163-bd09-43f3-83db-eb53c0e0a151">
+
+<img width="1138" alt="Screen Shot 2023-09-21 at 12 13 39 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/c258d785-4cce-4aa6-9ef2-a67d3f7e2687">
+
+<img width="1132" alt="Screen Shot 2023-09-21 at 12 15 19 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/c66f0513-8f5b-48c1-8f28-540803a2034b">
+
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
