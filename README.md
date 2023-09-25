@@ -96,10 +96,11 @@ From <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZ
 
 From installation files download PHP 7.3.8--> Extract PHP 7.3.8 files into PHP folder 
 
-<h2> From installation files download and install VC_redist.x86.exe. </h2>
+<h3> From installation files download and install VC_redist.x86.exe. </h3>
 
 
-<ul>From the installation files, download and install MySQL 5.5.62
+<ul>
+ <h2>From the installation files, download and install MySQL 5.5.62 </h2>
 <li>Typical Setup</li>
 <li>Launch configuration Wizard (after install)</li>
 <li>Standard Configuration</li>
