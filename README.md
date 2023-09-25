@@ -90,8 +90,10 @@ After IIS is installed, make sure it works by going to the web browser and type 
 
 
 <p> <img width="1138" alt="Screen Shot 2023-09-21 at 12 13 39 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/c258d785-4cce-4aa6-9ef2-a67d3f7e2687"> </p>
+<br />
 
 <p> <img width="1132" alt="Screen Shot 2023-09-21 at 12 15 19 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/c66f0513-8f5b-48c1-8f28-540803a2034b"> </p>
+<br />
 
 
 <h3>From installation files download PHP 7.3.8--> Extract PHP 7.3.8 files into PHP folder</h3>
@@ -104,6 +106,7 @@ After IIS is installed, make sure it works by going to the web browser and type 
 
 
 </p>
+<br />
 
 
 <h3> From installation files download and install VC_redist.x86.exe. </h3>
@@ -111,6 +114,7 @@ After IIS is installed, make sure it works by going to the web browser and type 
 <p> 
  <img width="484" alt="Screen Shot 2023-09-25 at 12 30 26 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/e7945b28-0db2-4243-9d06-ca16cd74d94b">
 </p>
+<br />
 
 <ul>
 <h2>From the installation files, download and install MySQL 5.5.62 </h2>
