@@ -96,7 +96,7 @@ From <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZ
 
 From installation files download PHP 7.3.8--> Extract PHP 7.3.8 files into PHP folder 
 
-From installation files download and install VC_redist.x86.exe.
+<head2> From installation files download and install VC_redist.x86.exe. </head2>
 
 
 <ul>From the installation files, download and install MySQL 5.5.62
@@ -104,6 +104,7 @@ From installation files download and install VC_redist.x86.exe.
 <li>Launch configuration Wizard (after install)</li>
 <li>Standard Configuration</li>
 <li>Password1</li>
+</ul>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
