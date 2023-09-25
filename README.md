@@ -100,11 +100,11 @@ From installation files download PHP 7.3.8--> Extract PHP 7.3.8 files into PHP f
 
 
 <ul>
- <h2>From the installation files, download and install MySQL 5.5.62 </h2>
-<li>Typical Setup</li>
-<li>Launch configuration Wizard (after install)</li>
-<li>Standard Configuration</li>
-<li>Password1</li>
+<h2>From the installation files, download and install MySQL 5.5.62 </h2>
+ <li>Typical Setup</li>
+ <li>Launch configuration Wizard (after install)</li>
+ <li>Standard Configuration</li>
+ <li>Password1</li>
 </ul>
 
 <p>
