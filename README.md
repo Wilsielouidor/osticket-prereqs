@@ -84,14 +84,26 @@ From <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZ
 
 <img width="513" alt="Screen Shot 2023-09-21 at 12 06 16 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/fd90e8e0-1b52-457c-8d3c-a6190cf51a8d">
 
-Create Directory C:\PHP
+<p> Create Directory C:\PHP
 <img width="1153" alt="Screen Shot 2023-09-21 at 12 11 55 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/4f399163-bd09-43f3-83db-eb53c0e0a151">
-
-<img width="1138" alt="Screen Shot 2023-09-21 at 12 13 39 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/c258d785-4cce-4aa6-9ef2-a67d3f7e2687">
-
-<img width="1132" alt="Screen Shot 2023-09-21 at 12 15 19 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/c66f0513-8f5b-48c1-8f28-540803a2034b">
+</p>
 
 
+<p> <img width="1138" alt="Screen Shot 2023-09-21 at 12 13 39 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/c258d785-4cce-4aa6-9ef2-a67d3f7e2687"> </p>
+
+<p> <img width="1132" alt="Screen Shot 2023-09-21 at 12 15 19 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/c66f0513-8f5b-48c1-8f28-540803a2034b"> </p>
+
+
+From installation files download PHP 7.3.8--> Extract PHP 7.3.8 files into PHP folder 
+
+From installation files download and install VC_redist.x86.exe.
+
+
+<ul>From the installation files, download and install MySQL 5.5.62
+<li>Typical Setup</li>
+<li>Launch configuration Wizard (after install)</li>
+<li>Standard Configuration</li>
+<li>Password1</li>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
