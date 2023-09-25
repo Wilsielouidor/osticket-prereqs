@@ -122,12 +122,49 @@ After IIS is installed, make sure it works by going to the web browser and type 
  <li>Launch configuration Wizard (after install)</li>
  <li>Standard Configuration</li>
  <li>Password1</li>
+ <li>Execute</li>
 </ul>
 
 <p>
 <img width="517" alt="Screen Shot 2023-09-25 at 12 56 15 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/eccf074e-3fa2-4c20-8bc7-f336dd94f364">
 
+ 
+<img width="505" alt="Screen Shot 2023-09-25 at 1 04 42 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/5d138853-05f2-4310-b16c-e3bfaa46fc30">
+
 </p>
+
+<h2>Complete Configuration within IIS</h2>
+<ul>
+ <li>Open IIS as Admin</li>
+ <li>Register PHP from within IIS</li>
+ {li
+ <margin-left: 20px; /click PHP manger--> register new php version--> Click browse button (which are the 3 dots)--> Find file C:\PHP\php-cgi.cxe--> Then click OK
+  } 
+ <li>Reload IIS (Open IIS, restart server</li>
+
+ <p>
+  <img width="828" alt="Screen Shot 2023-09-25 at 1 17 39 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/59554d0d-68eb-42fa-b4ec-6515e49b5bdb">
+
+ </p>
+</ul>
+
+<p>
+  <img width="828" alt="Screen Shot 2023-09-25 at 1 17 39 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/59554d0d-68eb-42fa-b4ec-6515e49b5bdb">
+
+ </p> 
+ </ul>
+
+<ul>
+ <p>
+  <img width="1061" alt="Screen Shot 2023-09-25 at 1 33 54 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/d70bb34b-bd43-4d52-b762-baac18ecd611">
+
+<img width="1066" alt="Screen Shot 2023-09-25 at 1 47 02 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/1bbfd0b8-45b0-45f3-bc2a-3be19f4ac562">
+
+<img width="1066" alt="Screen Shot 2023-09-25 at 1 58 51 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/5fa25b54-d1da-4dd8-8835-97afda36b79e">
+
+ </p>
+</ul>
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
@@ -136,6 +173,129 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<h2>Install osTicket v1.15.8</h2>
+<ul>
+<li>Download osTicket from the Installation Files Folder</li>
+<li>Extract and copy “upload” folder to c:\inetpub\wwwroot</li>
+<li>Within c:\inetpub\wwwroot, Rename “upload” to “osTicket” (Make sure you rename it exactly as you see it)</li>
+ 
+</ul>
+
+<img width="1144" alt="Screen Shot 2023-09-25 at 2 12 44 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/c789e54c-63bf-4ff9-9014-2a54e4a67269">
+
+<img width="1112" alt="Screen Shot 2023-09-25 at 2 11 18 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/a00512c1-a97f-4fa4-938d-ca9f0e210fff">
+
+
+Reload IIS (Open IIS, Stop and Start the server)
+
+Go to sites -> Default -> osTicket
+On the right, click “Browse *:80”
+
+<img width="1074" alt="Screen Shot 2023-09-25 at 2 20 51 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/c3fc242e-51c2-4a74-bbd3-f17b7c759f72">
+
+<img width="1070" alt="Screen Shot 2023-09-25 at 2 21 58 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/a10a3901-4063-4179-b725-e92ff43d58e0">
+
+
+Note that some extensions are not enabled
+Go back to IIS, sites -> Default -> osTicket
+Double-click PHP Manager
+Click “Enable or disable an extension”
+Enable: php_imap.dll
+Enable: php_intl.dll
+Enable: php_opcache.dll
+Refresh the osTicket site in your browse, observe the changes
+
+
+<img width="1071" alt="Screen Shot 2023-09-25 at 2 26 17 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/89153f62-1f7b-4233-b36b-b282428f8f0f">
+
+<img width="1069" alt="Screen Shot 2023-09-25 at 2 27 45 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/95ff6aa9-099e-4b86-a261-f68a38680b02">
+
+After extensions ahve been enabled 
+
+<img width="1440" alt="Screen Shot 2023-09-25 at 2 32 39 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/2da29e14-510c-455c-a5da-4e93e44665f8">
+
+
+Rename: ost-config.php
+From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+<img width="1135" alt="Screen Shot 2023-09-25 at 2 36 21 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/d2373cbe-a1f2-4ad2-aa04-7d1114547dc9">
+
+<img width="858" alt="Screen Shot 2023-09-25 at 2 38 23 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/d137453c-edf8-4267-b1e3-d773d65aba8c">
+
+
+Assign Permissions: ost-config.php
+Disable inheritance -> Remove All
+   Right click on ost-config--> properties--> security tab--> advanced--> disable inheritance--> Remove all inheritance 
+New Permissions -> Everyone -> All
+    Click add--> Select a prinicple--> type in "everyone"--> check names--> check full control--> apply and click OK
+
+<img width="941" alt="Screen Shot 2023-09-25 at 2 44 23 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/72ff287b-ad98-4b1c-9402-7419f32184c4">
+
+<img width="774" alt="Screen Shot 2023-09-25 at 2 47 18 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/114a9bb7-597d-465a-8e90-ba785519b1be">
+
+<img width="917" alt="Screen Shot 2023-09-25 at 2 50 33 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/4e34b9f4-13f8-4e02-9a36-08cb4375b810">
+
+
+
+
+Continue Setting up osTicket in the browser (click Continue)
+Name Helpdesk
+Default email (receives email from customers)
+
+<img width="1372" alt="Screen Shot 2023-09-25 at 2 58 04 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/d32146b7-9d68-4b2c-b6cd-abffe08d04aa">
+
+
+From the Installation Files, download and install HeidiSQL.
+
+<img width="661" alt="Screen Shot 2023-09-25 at 3 00 50 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/bc737bb5-0f16-4bd3-beb8-19332fa2f154">
+
+Open Heidi SQL
+Create a new session, root/Password1
+Connect to the session
+Create a database called “osTicket”
+   right click unamed--> create new--> database--> name "osTicket" (exactly the way you see it)--> click OK
+
+<img width="693" alt="Screen Shot 2023-09-25 at 3 04 59 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/3a687088-7a3d-462e-bf8d-90a059ec3ce0">
+
+<img width="949" alt="Screen Shot 2023-09-25 at 3 13 53 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/c2e8a3a1-a2ce-46d1-9d5b-048a64156805">
+
+
+<img width="933" alt="Screen Shot 2023-09-25 at 3 16 59 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/7f700d51-6e74-4243-99db-eb390816960e">
+
+
+Continue Setting up osticket in the browser
+MySQL Database: osTicket
+MySQL Username: root
+MySQL Password: Password1
+Click “Install Now!”
+
+<img width="814" alt="Screen Shot 2023-09-25 at 3 19 16 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/e6f4513c-16bb-4560-8a5f-d0b1698541c0">
+
+<img width="830" alt="Screen Shot 2023-09-25 at 3 21 58 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/69c2ae06-22d1-487f-b01e-511055279f6c">
+
+
+Clean up
+Delete: C:\inetpub\wwwroot\osTicket\setup
+
+<img width="1134" alt="Screen Shot 2023-09-25 at 3 23 28 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/19ccc315-8a4c-4df8-bc8b-930e1031585e">
+
+Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+<img width="918" alt="Screen Shot 2023-09-25 at 3 27 19 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/7ebe33ae-7407-43f9-8792-13968493b95e">
+
+
+
+Congratulations, hopefully it is installed with no errors!
+Browse to your help desk login page: http://localhost/osTicket/scp/login.php
+
+<img width="1376" alt="Screen Shot 2023-09-25 at 3 31 42 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/33a046bf-8e43-4a3c-af37-51343a67ebb3">
+
+<img width="1440" alt="Screen Shot 2023-09-25 at 3 33 16 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/5174c9f5-2121-4681-b3f9-81eea09290f1">
+
+
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
