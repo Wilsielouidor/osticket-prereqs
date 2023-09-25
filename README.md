@@ -78,13 +78,13 @@ After IIS is installed, make sure it works by going to the web browser and type 
 
 </p>
 <br />
-From <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6" target="_blank">Installation Files</a> download PHP Manager--> download rewrite 
+<h3>From <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6" target="_blank">Installation Files</a> download PHP Manager--> download rewrite</h3> 
 
 <img width="665" alt="Screen Shot 2023-09-21 at 12 01 24 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/68b5931b-2b60-45fd-b03d-f00b6adabc0e">
 
 <img width="513" alt="Screen Shot 2023-09-21 at 12 06 16 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/fd90e8e0-1b52-457c-8d3c-a6190cf51a8d">
 
-<p> Create Directory C:\PHP
+<p> <h3>Create Directory C:\PHP </h3>
 <img width="1153" alt="Screen Shot 2023-09-21 at 12 11 55 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/4f399163-bd09-43f3-83db-eb53c0e0a151">
 </p>
 
@@ -94,7 +94,17 @@ From <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZ
 <p> <img width="1132" alt="Screen Shot 2023-09-21 at 12 15 19 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/c66f0513-8f5b-48c1-8f28-540803a2034b"> </p>
 
 
-From installation files download PHP 7.3.8--> Extract PHP 7.3.8 files into PHP folder 
+<h3>From installation files download PHP 7.3.8--> Extract PHP 7.3.8 files into PHP folder</h3>
+
+<p><img width="1123" alt="Screen Shot 2023-09-25 at 12 12 47 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/1403a330-03db-473b-a60f-09868f441785">
+
+ <img width="1127" alt="Screen Shot 2023-09-25 at 12 14 03 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/5fb5776d-147a-4e77-ad9b-f5ec217396a2">
+
+ <img width="1126" alt="Screen Shot 2023-09-25 at 12 17 17 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/ed5c7260-b258-4587-accf-2d46dbbd0c55">
+
+
+</p>
+
 
 <h3> From installation files download and install VC_redist.x86.exe. </h3>
 
