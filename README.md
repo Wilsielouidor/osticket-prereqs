@@ -108,6 +108,9 @@ After IIS is installed, make sure it works by going to the web browser and type 
 
 <h3> From installation files download and install VC_redist.x86.exe. </h3>
 
+<p> 
+ <img width="484" alt="Screen Shot 2023-09-25 at 12 30 26 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/e7945b28-0db2-4243-9d06-ca16cd74d94b">
+</p>
 
 <ul>
 <h2>From the installation files, download and install MySQL 5.5.62 </h2>
