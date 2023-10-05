@@ -35,36 +35,69 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - <p> osTicket v1.15.8
 
 <h1>Sign into Azure</h1>
-Sign into the <a href= "https://portal.azure.com" target="_blank">Azure portal</a>
+<ul>
+ <li>Sign into the <a href= "https://portal.azure.com" target="_blank">Azure portal</a> </li>
+</ul>
 
 <h1> Create Virtual Machine</h1>
-1) Create Resource group-->for image use Windows 10 with 2 or 4 virtual CPUs
+<ul>
+ <li> Create Resource group</li>
+</ul>
 <p></p>
 
-<img width="852" alt="Screen Shot 2023-09-20 at 4 28 49 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/a6790aaf-1d64-43a6-9521-896881c4492d">
+<img width="80%" alt="Screen Shot 2023-09-20 at 4 28 49 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/a6790aaf-1d64-43a6-9521-896881c4492d">
 <p></p>
 
-2) Under Instance details: create a Virtual Machine name--> For image use Windows 10 Pro--> Size use 2 or 4vcpus, 16 Gib of memory
-<img width="789" alt="Screen Shot 2023-09-20 at 4 35 41 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/93e55d07-0bc9-46d5-ac50-a89f48fd60a1">
- <p></p>
- 
-3) Under Administrator account provide username and password to use for later when connecting to the Virtual Machine.
-Leave the remaining defaults--> check box under licensing and click review and create
+<h2> Instance Details</h2>
+<ul> 
+ <li>Under Instance details: create a Virtual Machine name</li>
+ <li>For image use Windows 10 Pro</li> 
+ <li>Size: use 2 or 4vcpus, 16 Gib of memory</li>
+</ul>
+
+ <p><img width="80%" alt="Screen Shot 2023-09-20 at 4 35 41 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/93e55d07-0bc9-46d5-ac50-a89f48fd60a1"></p>
+
+ <h2> Administrator Account</h2>
+<ul>
+ <li>Under Administrator account provide username and password to use for later when connecting to the Virtual Machine.</li>
+ <li>Leave the remaining defaults</li>
+ <li>check box under licensing and click review and create </li>
+</ul>
 <p>
  
-<img width="782" alt="Screen Shot 2023-09-20 at 4 38 42 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/aaa877bd-af21-40d2-a99e-fe6a2a7a15de">
+<img width="80%" alt="Screen Shot 2023-09-20 at 4 38 42 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/aaa877bd-af21-40d2-a99e-fe6a2a7a15de">
 
 <h1> Install Dependencies and osTicket</h1>
 <p>
-1) Use Remote Desktop to connect to Virtual Machine--> Copy and paste public IP address that was just created onto Remote desktop and use login credentials that were created under azure virtual machines
+<ul>
+ <li>Use Remote Desktop to connect to Virtual Machine</li>
+ <li>Copy and paste public IP address that was just created onto Remote desktop</li>
+ <li>use login credentials that were created under azure virtual machines</li>
+</ul>
+<p>
+<img width="80%" alt="Screen Shot 2023-09-20 at 6 48 07 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/a98a0374-8762-45da-9e9b-aac96c3f1784">
+</p>
+</ b>
+<p>
+<img width="80%" alt="Screen Shot 2023-09-20 at 6 50 58 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/e1ad5f0c-3a7b-4203-b25d-1a18fb370843"> 
+</b>
+</p>
 
-<img width="1434" alt="Screen Shot 2023-09-20 at 6 48 07 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/a98a0374-8762-45da-9e9b-aac96c3f1784">  <img width="611" alt="Screen Shot 2023-09-20 at 6 50 58 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/e1ad5f0c-3a7b-4203-b25d-1a18fb370843"> <img width="611" alt="Screen Shot 2023-09-20 at 6 53 02 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/48506a06-c685-4788-857a-220e4b8020ca">
+
+<img width="80%" alt="Screen Shot 2023-09-20 at 6 53 02 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/48506a06-c685-4788-857a-220e4b8020ca">
 
 
 
-  
-2) Open <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6" target="_blank">Installation Files</a> on microsoft edge web browser as needed
- Open Install/Enable IIS in with CGI and Common HTTP Features by going to control panel--> programs--> Turn windows features on and off--> Check box of Internet Information Services--> expand world wide web services by pressing the plus sign next to it--> expand application Development Features check CGI
+<h2>Install/Enable IIS</h2>  
+Note: Open <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6" target="_blank">Installation Files</a> on microsoft edge web browser as needed
+ <ul>
+  <li>Open Install/Enable IIS in with CGI and Common HTTP Features by going to control panel</li>
+  <li>Click Programs</li>
+   <li>Turn windows features on and off</li>
+  <li>Check box of Internet Information Services</li> 
+  <li>expand world wide web services by pressing the plus sign next to it</li> 
+  <li>expand application Development Features check CGI </li>
+ </ul>
 <img width="416" alt="Screen Shot 2023-09-20 at 11 37 00 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/708d3403-d9a8-44a9-8216-9abbfb21622d">
 
 
