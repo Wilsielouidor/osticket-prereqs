@@ -281,8 +281,9 @@ Note that some extensions are not enabled
 
 <img width="80%" alt="Screen Shot 2023-09-25 at 2 32 39 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/2da29e14-510c-455c-a5da-4e93e44665f8">
 
-<ul> 
-<li>Rename: ost-sampleconfig.php</li>
+
+<h3>Rename: ost-sampleconfig.php</h3>
+<ul>
 <li>From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php</li>
 <li>To: C:\inetpub\wwwroot\osTicket\include\ost-config.php</li>
 
@@ -349,18 +350,22 @@ Default email (receives email from customers)
 
 
 <h2>Clean up</h2>
-Delete: C:\inetpub\wwwroot\osTicket\setup
-
+<p>
+<ul>
+<li>Delete: C:\inetpub\wwwroot\osTicket\setup</li>
+</p>
 <img width="80%" alt="Screen Shot 2023-09-25 at 3 23 28 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/19ccc315-8a4c-4df8-bc8b-930e1031585e">
 
-Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
-
+<li>Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php</li>
+</ul>
 <img width="80%" alt="Screen Shot 2023-09-25 at 3 27 19 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/7ebe33ae-7407-43f9-8792-13968493b95e">
 
 
 
 <h2>Congratulations, hopefully it is installed with no errors!</h2>
-Browse to your help desk login page: http://localhost/osTicket/scp/login.php
+<ul>
+<li>Browse to your help desk login page: http://localhost/osTicket/scp/login.php</li>
+</ul>
 
 <img width="80%" alt="Screen Shot 2023-09-25 at 3 31 42 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/33a046bf-8e43-4a3c-af37-51343a67ebb3">
 
