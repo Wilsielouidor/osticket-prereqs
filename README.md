@@ -34,7 +34,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - <p>  HeidiSQL
 - <p> osTicket v1.15.8
 
-<h1>Sign into Azure</h1>
+<h2>Extra Resource</h2>
+<ul>
+ <li>How to create a <a href="https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal" target="_blank">Virtual Machine</a> and connect through Azure portal </li>
+</ul>
+<h2>Sign into Azure</h2>
 <ul>
  <li>Sign into the <a href= "https://portal.azure.com" target="_blank">Azure portal</a> </li>
 </ul>
@@ -72,8 +76,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  <h2> Login to Virtual Machine</h2>
 <ul>
  <li>Use Remote Desktop to connect to Virtual Machine</li>
+ <ul> 
+  <li>Note: if you are using mac you would need to download microsoft remote desktop from your app store </li>
+  <li><img width="40%" alt="Screen Shot 2023-10-06 at 8 36 45 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/9715324a-2996-41ad-bd1f-96fd614a6726">
+
+</li>
+ </ul>
  <li>Copy and paste public IP address that was just created onto Remote desktop</li>
- <li>use login credentials that were created under azure virtual machines</li>
+ <li>use login credentials that were created under azure virtual machine</li>
 </ul>
 <p>
 <img width="80%" alt="Screen Shot 2023-09-20 at 6 48 07 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/a98a0374-8762-45da-9e9b-aac96c3f1784">
@@ -89,46 +99,53 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 
-<h2>Install/Enable IIS</h2>  
+<h2>Install IIS</h2>  
 Note: Open <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6" target="_blank">Installation Files</a> on microsoft edge web browser as needed
  <ul>
-  <li>Open Install/Enable IIS in with CGI and Common HTTP Features by going to control panel</li>
+  <li>Open Install IIS in with CGI and Common HTTP Features by going to control panel</li>
   <li>Click Programs</li>
    <li>Turn windows features on and off</li>
   <li>Check box of Internet Information Services</li> 
-  <li>expand world wide web services by pressing the plus sign next to it</li> 
-  <li>expand application Development Features check CGI </li>
+  <li>Expand world wide web services by pressing the plus sign next to it</li> 
+  <li>Expand application Development Features check CGI </li>
  </ul>
 <img width="60%" alt="Screen Shot 2023-09-20 at 11 37 00 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/708d3403-d9a8-44a9-8216-9abbfb21622d">
 
 
 
-<p>Collapse Application Development--> Expand Common HTTP Features and make sure all features are checked and then click OK.
+<p>
+ <h4>Collapse Application Development--> Expand Common HTTP Features and make sure all features are checked and then click OK.</h4>
 </p>
+
+</b> 
 <img width="60%" alt="Screen Shot 2023-09-20 at 11 43 21 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/896e2af9-1e47-4b7a-a6b7-9e87d5e59463">
 
 
-<p>After IIS is installed, make sure it works by going to the web browser and type in 127.0.0.1 and it shows the image below.
+<p><h4>After IIS is installed, make sure it works by going to the web browser and type in 127.0.0.1 as it shows in the image below.</h4>
+ <ul>
+  <li>Note: 127.0.0.1 (a universal home address for all computers) is a loopback address that is used to load a webpage on the same webpage being used. Such as testing to see if the IIS is working effectively, once osTicket is downloaded the osTicket would run efficiently.</li>
+ </ul>
 </p>
-<img width="80%" alt="Screen Shot 2023-09-20 at 11 48 10 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/e643c53a-1aac-41b5-8676-6d1b5d086007">
+<img width="60%" alt="Screen Shot 2023-09-20 at 11 48 10 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/e643c53a-1aac-41b5-8676-6d1b5d086007">
 
 </p>
 <br />
 <h2> Download Files</h2> 
 <ul> 
 <li>From <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6" target="_blank">Installation Files</a> </li>
-<li>download PHP Manager--> download rewrite </li>
+<li>Download PHP Manager--> download rewrite </li>
  </ul>
  </p>
-<img width="80%" alt="Screen Shot 2023-09-21 at 12 01 24 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/68b5931b-2b60-45fd-b03d-f00b6adabc0e">
+<img width="60%" alt="Screen Shot 2023-09-21 at 12 01 24 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/68b5931b-2b60-45fd-b03d-f00b6adabc0e">
 
-<img width="80%" alt="Screen Shot 2023-09-21 at 12 06 16 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/fd90e8e0-1b52-457c-8d3c-a6190cf51a8d">
+<img width="60%" alt="Screen Shot 2023-09-21 at 12 06 16 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/fd90e8e0-1b52-457c-8d3c-a6190cf51a8d">
 
 <p> <h2>Create Directory C:\PHP </h2>
  <ul>
   <li>Create a folder by clicking the folder icon on the bottom</li>
-  <li> Click Windows C</li>
+  <li> Click this PC->Windows C</li>
   <li>Create new folder by right clicking where there is an open space</li>
+  <li> Go down to new and then folder</li>
   <li> Name the folder PHP</li>
  </ul>
 <img width="80%" alt="Screen Shot 2023-09-21 at 12 11 55 AM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/4f399163-bd09-43f3-83db-eb53c0e0a151">
@@ -148,11 +165,11 @@ Note: Open <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6Ez
   <li>Extract PHP 7.3.8 files from download folder into PHP folder by right clicking the file from recently downloaded files</li>
  </ul>
 
-<p><img width="80%" alt="Screen Shot 2023-09-25 at 12 12 47 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/1403a330-03db-473b-a60f-09868f441785"> </p>
+<p><img width="60%" alt="Screen Shot 2023-09-25 at 12 12 47 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/1403a330-03db-473b-a60f-09868f441785"> </p>
 
- <p> <img width="80%" alt="Screen Shot 2023-09-25 at 12 14 03 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/5fb5776d-147a-4e77-ad9b-f5ec217396a2"> </p>
+ <p> <img width="60%" alt="Screen Shot 2023-09-25 at 12 14 03 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/5fb5776d-147a-4e77-ad9b-f5ec217396a2"> </p>
 
- <p><img width="80%" alt="Screen Shot 2023-09-25 at 12 17 17 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/ed5c7260-b258-4587-accf-2d46dbbd0c55"> 
+ <p><img width="60%" alt="Screen Shot 2023-09-25 at 12 17 17 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/ed5c7260-b258-4587-accf-2d46dbbd0c55"> 
 
 
 </p>
@@ -162,7 +179,7 @@ Note: Open <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6Ez
 <h2> From <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6" target="_blank">Installation Files</a> download and install VC_redist.x86.exe. </h2>
 
 <p> 
- <img width="80%" alt="Screen Shot 2023-09-25 at 12 30 26 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/e7945b28-0db2-4243-9d06-ca16cd74d94b">
+ <img width="60%" alt="Screen Shot 2023-09-25 at 12 30 26 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/e7945b28-0db2-4243-9d06-ca16cd74d94b">
 </p>
 <br />
 
@@ -176,31 +193,32 @@ Note: Open <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6Ez
 </ul>
 
 <p>
-<img width="80%" alt="Screen Shot 2023-09-25 at 12 56 15 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/eccf074e-3fa2-4c20-8bc7-f336dd94f364">
+<img width="60%" alt="Screen Shot 2023-09-25 at 12 56 15 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/eccf074e-3fa2-4c20-8bc7-f336dd94f364">
 
  
-<img width="80%" alt="Screen Shot 2023-09-25 at 1 04 42 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/5d138853-05f2-4310-b16c-e3bfaa46fc30">
+<img width="60%" alt="Screen Shot 2023-09-25 at 1 04 42 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/5d138853-05f2-4310-b16c-e3bfaa46fc30">
 
 </p>
 
 <h2>Complete Configuration within IIS</h2>
+<p>
 <ul>
  <li> Type in IIS next to the bottom of the start button</li>
  <li>Click Run as Admin</li>
  <li>Register PHP from within IIS</li>
- {li
- <margin-left: 20px; /click PHP manger--> register new php version--> Click browse button (which are the 3 dots)--> Find file C:\PHP\php-cgi.cxe--> Then click OK
-  } 
+ <ul>
+ <li>Click PHP manger--> Register new PHP version--> Click browse button (which are the 3 dots)--> Find file C:\PHP\php-cgi.cxe--> Then click OK</li>
+ </ul>
  <li>Reload IIS (Open IIS, restart server</li>
-
+</p> 
  <p>
-  <img width="80%" alt="Screen Shot 2023-09-25 at 1 17 39 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/59554d0d-68eb-42fa-b4ec-6515e49b5bdb">
+  <img width="60%" alt="Screen Shot 2023-09-25 at 1 17 39 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/59554d0d-68eb-42fa-b4ec-6515e49b5bdb">
 
  </p>
 </ul>
 
 <p>
-  <img width="80%" alt="Screen Shot 2023-09-25 at 1 17 39 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/59554d0d-68eb-42fa-b4ec-6515e49b5bdb">
+  <img width="60%" alt="Screen Shot 2023-09-25 at 1 17 39 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/59554d0d-68eb-42fa-b4ec-6515e49b5bdb">
 
  </p> 
  </ul>
@@ -216,18 +234,11 @@ Note: Open <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6Ez
  </p>
 </ul>
 
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
 <h2>Install osTicket v1.15.8</h2>
 <ul>
-<li>Download osTicket from the Installation Files Folder</li>
+<li>Download osTicket from <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6" target="_blank">Installation Files</a> Folder</li>
 <li>Extract and copy “upload” folder to c:\inetpub\wwwroot</li>
 <li>Within c:\inetpub\wwwroot, Rename “upload” to “osTicket” (Make sure you rename it exactly as you see it)</li>
  
@@ -257,8 +268,8 @@ Note that some extensions are not enabled
 <li>Enable: php_imap.dll</li>
 <li>Enable: php_intl.dll</li>
 <li>Enable: php_opcache.dll</li>
-<li>Refresh the osTicket site in your browse, observe the changes</li>
  </ul>
+ <li>Refresh the osTicket site in your browse, observe the changes</li>
 </ul>
 
 
@@ -271,7 +282,7 @@ Note that some extensions are not enabled
 <img width="80%" alt="Screen Shot 2023-09-25 at 2 32 39 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/2da29e14-510c-455c-a5da-4e93e44665f8">
 
 <ul> 
-<li>Rename: ost-config.php</li>
+<li>Rename: ost-sampleconfig.php</li>
 <li>From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php</li>
 <li>To: C:\inetpub\wwwroot\osTicket\include\ost-config.php</li>
 
@@ -282,16 +293,19 @@ Note that some extensions are not enabled
 
 <li>Assign Permissions: ost-config.php</li>
 <li>Disable inheritance -> Remove All</li>
-   Right click on ost-config--> properties--> security tab--> advanced--> disable inheritance--> Remove all inheritance 
-New Permissions -> Everyone -> All
-    Click add--> Select a prinicple--> type in "everyone"--> check names--> check full control--> apply and click OK
+   <li>Right click on ost-config--> properties--> security tab--> advanced--> disable inheritance--> Remove all inheritance 
+New Permissions -> Everyone -> All</li>
+    <li>Click add--> Select a prinicple--> type in "everyone"--> check names--> check full control--> apply and click OK</li>
 </ul>
-<img width="941" alt="Screen Shot 2023-09-25 at 2 44 23 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/72ff287b-ad98-4b1c-9402-7419f32184c4">
-
-<img width="774" alt="Screen Shot 2023-09-25 at 2 47 18 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/114a9bb7-597d-465a-8e90-ba785519b1be">
-
-<img width="917" alt="Screen Shot 2023-09-25 at 2 50 33 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/4e34b9f4-13f8-4e02-9a36-08cb4375b810">
-
+<p>
+<img width="80%" alt="Screen Shot 2023-09-25 at 2 44 23 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/72ff287b-ad98-4b1c-9402-7419f32184c4">
+</p>
+<p>
+<img width="80%" alt="Screen Shot 2023-09-25 at 2 47 18 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/114a9bb7-597d-465a-8e90-ba785519b1be">
+</p>
+<p>
+<img width="80%" alt="Screen Shot 2023-09-25 at 2 50 33 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/4e34b9f4-13f8-4e02-9a36-08cb4375b810">
+</p>
 
 
 
@@ -299,10 +313,10 @@ Continue Setting up osTicket in the browser (click Continue)
 Name Helpdesk
 Default email (receives email from customers)
 
-<img width="1372" alt="Screen Shot 2023-09-25 at 2 58 04 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/d32146b7-9d68-4b2c-b6cd-abffe08d04aa">
+<img width="80%" alt="Screen Shot 2023-09-25 at 2 58 04 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/d32146b7-9d68-4b2c-b6cd-abffe08d04aa">
 
 
-<h2>From the Installation Files, download and install HeidiSQL.</h2>
+<h2>From the <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6" target="_blank">Installation Files</a>, download and install HeidiSQL.</h2>
 
 <img width="80%" alt="Screen Shot 2023-09-25 at 3 00 50 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/bc737bb5-0f16-4bd3-beb8-19332fa2f154">
 <ul>
@@ -337,15 +351,15 @@ Default email (receives email from customers)
 <h2>Clean up</h2>
 Delete: C:\inetpub\wwwroot\osTicket\setup
 
-<img width="1134" alt="Screen Shot 2023-09-25 at 3 23 28 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/19ccc315-8a4c-4df8-bc8b-930e1031585e">
+<img width="80%" alt="Screen Shot 2023-09-25 at 3 23 28 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/19ccc315-8a4c-4df8-bc8b-930e1031585e">
 
 Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
-<img width="918" alt="Screen Shot 2023-09-25 at 3 27 19 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/7ebe33ae-7407-43f9-8792-13968493b95e">
+<img width="80%" alt="Screen Shot 2023-09-25 at 3 27 19 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/7ebe33ae-7407-43f9-8792-13968493b95e">
 
 
 
-Congratulations, hopefully it is installed with no errors!
+<h2>Congratulations, hopefully it is installed with no errors!</h2>
 Browse to your help desk login page: http://localhost/osTicket/scp/login.php
 
 <img width="80%" alt="Screen Shot 2023-09-25 at 3 31 42 PM" src="https://github.com/Wilsielouidor/osticket-prereqs/assets/142513380/33a046bf-8e43-4a3c-af37-51343a67ebb3">
